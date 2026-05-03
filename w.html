@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WIDI APRIANSYAH | Front-end Engineer & UI/UX Designer</title>
+    <meta name="description"
+        content="Portfolio of Widi Apriansyah - Front-end Engineer and UI/UX Designer from Sukabumi, Indonesia." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!---Darkmode button-->
+   
+    <!-- Back to Top -->
+    <button class="back-top" id="backTop" title="Back to Top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar">
+       
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+            <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+            <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+            <li><a href="#workflow" class="nav-link" data-section="workflow">Workflow</a></li>
+            <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+            <li><a href="#projects" class="nav-link" data-section="projects">Projects</a></li>
+            <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation" aria-expanded="false">
+            <span class="ham-bar"></span>
+            <span class="ham-bar"></span>
+            <span class="ham-bar"></span>
+    </nav>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="nav-overlay" id="navOverlay"></div>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="status-badge">
+                <span class="pulse-dot"></span>
+                INTRODUCE 
+            </div>
+            <h1 class="hero-title">
+                <span class="white">Front-end</span><br />
+                <span class="amber">Developer</span>
+            </h1>
+            <p class="hero-desc">Hi, I'm <strong>Muhamad Widi Apriansyah</strong>. I build accessible, pixel-perfect,
+                and
+                performant web experiences that blend design and engineering.</p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn-primary">View My Work <i class="fas fa-arrow-right"></i></a>
+                <a href="https://github.com/repos?q=owner%3A%40me" class="icon-btn" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com" class="icon-btn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:muhamadwidiapriansyah@gmail.com" class="icon-btn"><i class="fas fa-envelope"></i></a>
+            </div>
+            <div class="hero-tags">
+                <span><i class="fas fa-location-dot"></i> Sukabumi, Indonesia</span>
+                <span class="dot-sep">•</span>
+                <span><i class="fas fa-wand-magic-sparkles"></i> UI/UX Designer</span>
+                <span class="dot-sep">•</span>
+                <span><i class="fas fa-wand-magic-sparkles"></i> Electrical Power Engineer</span>
+            </div>
+        </div>
+        <div class="hero-photo-wrap">
+            <div class="hero-photo-frame">
+                <div class="frame-corners">
+                    <span class="corner tl"></span>
+                    <span class="corner tr"></span>
+                    <span class="corner bl"></span>
+                    <span class="corner br"></span>
+                </div>
+                <img src="wii.jpg" alt="Widi Apriansyah" class="hero-photo" />
+            </div>
+        </div>
+        <div class="hero-circle-deco"></div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+        <div class="about-text reveal">
+            <div class="section-label"><span class="line"></span> WHO IS MUHAMAD WIDI APRIANSYAH ?</div>
+            <h2>Transforming ideas<br />into<br /><span class="amber">digital reality</span></h2>
+            <p>I am a passionate <strong>UI/UX Designer & Frontend Engineer</strong> dedicated to crafting intuitive and
+                visually stunning digital experiences.</p>
+            <p>With <strong>3 years</strong> of focused learning and hands-on practice, I bridge the gap between
+                creative design and technical implementation. My goal is to build applications that not only look good
+                but feel natural to use.</p>
+            <p>I constantly explore new technologies and design trends to keep my work modern and effective, ensuring
+                every project I touch meets the highest professional standards.</p>
+            <div class="about-pills">
+                <span class="pill"><i class="fas fa-mobile-alt"></i> Responsive Design</span>
+                <span class="pill"><i class="fas fa-wand-magic-sparkles"></i> Modern Design</span>
+                <span class="pill"><i class="fas fa-gauge-high"></i> Performance</span>
+            </div>
+        </div>
+        <div class="about-visual reveal">
+            <div class="about-photo-ring">
+                <div class="orbit-ring ring1"></div>
+                <div class="orbit-ring ring2"></div>
+                <img src="wii.jpg" alt="Widi Apriansyah" class="about-photo" />
+            </div>
+            <div class="stat-card stat-years float-anim1">
+                <div class="stat-icon"><i class="fas fa-rocket"></i></div>
+                <div class="stat-info"><strong>3</strong><span>Years Learning</span></div>
+            </div>
+            <div class="stat-card stat-projects float-anim2">
+                <div class="stat-icon code-icon"><i class="fas fa-code"></i></div>
+                <div class="stat-info"><strong>5+</strong><span>Projects Done</span></div>
+            </div>
+            <div class="stat-card stat-tech float-anim3">
+                <div class="stat-icon tech-icon"><i class="fas fa-microchip"></i></div>
+                <div class="stat-info"><strong>10+</strong><span>Technologies</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills section" id="skills">
+        <div class="section-header reveal">
+            <h2>Skills & <span class="amber">Technologies</span></h2>
+            <p>A curated set of tools and technologies I use to bring digital products to life.</p>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card reveal">
+                <div class="skill-icon"><i class="fas fa-terminal"></i></div>
+                <h3>Languages</h3>
+                <p>The programming languages that I often use.</p>
+                <div class="skill-tags">
+                    <span>JavaScript</span><span>C/C++</span><span>Python</span>
+                </div>
+            </div>
+            <div class="skill-card reveal">
+                <div class="skill-icon"><i class="fas fa-layer-group"></i></div>
+                <h3>Frameworks</h3>
+                <p>A great tool for building today's growing applications.</p>
+                <div class="skill-tags">
+                    <span>Next.js</span><span>React</span>
+                </div>
+            </div>
+            <div class="skill-card reveal">
+                <div class="skill-icon"><i class="fas fa-palette"></i></div>
+                <h3>Design Tools</h3>
+                <p>Crafting beautiful and intuitive interfaces.</p>
+                <div class="skill-tags">
+                    <span>Figma</span><span>Canva</span><span>Alight Motion</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WORKFLOW -->
+    <section class="workflow section" id="workflow">
+        <div class="section-header reveal">
+            <h2><i class="fas fa-code-branch wf-icon"></i> My Workflow</h2>
+            <div class="amber-line"></div>
+            <p>How I turn complex problems into simple, elegant solutions.</p>
+        </div>
+        <div class="workflow-timeline reveal" id="wfTimeline">
+            <div class="wf-connector"></div>
+            <div class="wf-step wf-reveal wf-1">
+                <div class="wf-icon-wrap amber-bg"><i class="fas fa-magnifying-glass"></i></div>
+                <div class="wf-num">1</div>
+                <h4>Understand</h4>
+                <p>Analyzing requirements, understanding the user's problem, and planning the best technical approach.
+                </p>
+            </div>
+            <div class="wf-step wf-reveal wf-2">
+                <div class="wf-icon-wrap orange-bg"><i class="fas fa-lightbulb"></i></div>
+                <div class="wf-num">2</div>
+                <h4>Ideation</h4>
+                <p>Brainstorming creative concepts, finding inspiration, and crafting unique design solutions.</p>
+            </div>
+            <div class="wf-step wf-reveal wf-3">
+                <div class="wf-icon-wrap gray-bg dark-text"><i class="fas fa-code"></i></div>
+                <div class="wf-num">3</div>
+                <h4>Code</h4>
+                <p>Writing clean, efficient, and maintainable code using modern frameworks like Next.js and React.</p>
+            </div>
+            <div class="wf-step wf-reveal wf-4">
+                <div class="wf-icon-wrap blue-bg"><i class="fas fa-rocket"></i></div>
+                <div class="wf-num">4</div>
+                <h4>Deploy</h4>
+                <p>Testing, optimizing and deploying the product to ensure peak performance and reliability.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="experience section" id="experience">
+        <div class="section-header reveal">
+            <h2>My <span class="amber">Experience</span></h2>
+            <div class="amber-line"></div>
+            <p>The path that shaped my skills and professional growth.</p>
+        </div>
+        <div class="exp-timeline">
+            <div class="exp-line"></div>
+            
+
+            <div class="exp-item reveal">
+                <div class="exp-dot blue-dot"></div>
+                <div class="exp-card" data-img="-"
+                    data-caption="Electrical Power Engineering – Institut Teknologi PLN">
+                    <div class="exp-card-header">
+                        <div class="exp-logo"><img src="https://placehold.co/50x50/1a1a2e/6c63ff?text=IT"
+                                alt="ExplorAltion" /></div>
+                        <div class="exp-title">
+                            <h4>Electrical Power Engineering</h4>
+                            <span class="exp-company blue-text"><i class="fas fa-building-columns"></i>
+                                Institut Teknologi PLN</span>
+                        </div>
+                        <div class="exp-meta">
+                            <span><i class="fas fa-calendar"></i>2025 - Now</span>
+                            <span><i class="fas fa-location-dot"></i> Jakarta, ID</span>
+                        </div>
+                    </div>
+                    <p>Dedicated Electrical Power Engineering student with a strong secondary focus on Front-end
+                        Development.
+                        I am passionate about applying the logical rigor of engineering to the art of web design,
+                        creating digital solutions that are as functional as they are aesthetically pleasing.</p>
+                    <div class="exp-tags blue-tags">
+                        <span>Innovation</span><span>Prototyping</span><span>Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+            <div class="exp-item reveal">
+                <div class="exp-dot circle-dot"></div>
+                <div class="exp-card" data-img=""
+                    data-caption="Science Major – SMA IT AL-HUDA">
+                    <div class="exp-card-header">
+                        <div class="exp-logo"><img src="https://placehold.co/50x50/2a2a2a/aaa?text=SMA" alt="SMK" />
+                        </div>
+                        <div class="exp-title">
+                            <h4>Science Major</h4>
+                            <span class="exp-company gray-text"><i class="fas fa-building-columns"></i> SMA IT AL-HUDA</span>
+                        </div>
+                        <div class="exp-meta">
+                            <span><i class="fas fa-calendar"></i> 2022 – 2024</span>
+                            <span><i class="fas fa-location-dot"></i> Sukabumi, ID</span>
+                        </div>
+                    </div>
+                    <p>Dedicated Electrical Power Engineering student with a strong secondary focus on Front-end
+                        Development.
+                        I am passionate about applying the logical rigor of engineering to the art of web design,
+                        creating digital solutions that are as functional as they are aesthetically pleasing.</p>
+                    <div class="exp-tags gray-tags">
+                        <span>Software Engineering</span><span>Web Development</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects section" id="projects">
+        <div class="section-header reveal">
+            <h2>My <span class="amber">Projects</span></h2>
+            <div class="amber-line"></div>
+            <p>A showcase of projects I've built with passion and precision.</p>
+        </div>
+        <div class="project-grid">
+            <div class="project-card reveal">
+                <div class="project-img"><img src="ss.jpg"
+                        alt="JusBuahKita" /></div>
+                <div class="project-info">
+                    <div class="project-title-row">
+                        <h4>JusBuahKita</h4>
+                        <div class="project-links">
+                            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="#" title="Live"><i class="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                    <p>make a website landing page for JusBuahKita (Just a fake project btw:3).</p>
+                    <div class="project-tags"><span>ReactJs</span></div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+        <div class="contact-inner reveal">
+            <div class="contact-left">
+                <div class="section-label"><span class="line"></span> LET'S WORK TOGETHER</div>
+                <h2>Have a project in<br /><span class="amber">mind?</span></h2>
+                <p>Open for new new projects. Get in touch and make something amazing
+                    together!</p>
+                <a href="mailto:muhamadwidiapriansyah@gmail.com" class="btn-primary">Write me an email <i
+                        class="fas fa-envelope"></i></a>
+            </div>
+            <div class="contact-right">
+                <div class="contact-card reveal">
+                    <div class="contact-card-icon"><i class="fab fa-github"></i></div>
+                    <div>
+                        <div class="cc-label">Code Repository</div>
+                        <div class="cc-val">github.com/widi</div>
+                    </div>
+                    <a href="#" class="cc-btn">Follow <i class="fas fa-arrow-up-right-from-square"></i></a>
+                </div>
+                <div class="contact-card reveal">
+                    <div class="contact-card-icon"><i class="fas fa-location-dot"></i></div>
+                    <div>
+                        <div class="cc-label">Sukabumi, Indonesia</div>
+                        <div class="cc-val">Remote / On-site</div>
+                    </div>
+                    <span class="cc-available"><span class="green-dot"></span> Remote / On-site</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-col">
+                <div class="footer-brand">
+                    <span class="brand-code">MWA</span>
+                    <div><strong>Widi</strong><br /><small>Portfolio</small></div>
+                </div>
+                <p>Building websites and applications that actually work well for real people.</p>
+                <ul class="footer-list">
+                    <li><i class="fas fa-code"></i> Web Development</li>
+                    <li><i class="fas fa-pen-nib"></i> UI/UX Design</li>
+                    <li><i class="fas fa-wand-magic-sparkles"></i> Front-end Engineer</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h5><span class="line"></span> Quick Links</h5>
+                <div class="footer-links-grid">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h5><span class="line"></span> Get in Touch</h5>
+                <ul class="footer-contact-list">
+                    <li><i class="fas fa-envelope"></i> muhamadwidiapriansyah@gmail.com</li>
+                    <li><i class="fas fa-location-dot"></i> Sukabumi, West Java, Indonesia</li>
+                    <li><i class="fas fa-phone"></i> Available for Work</li>
+                </ul>
+                <div class="social-icons">
+                    <a href="https://github.com/repos?q=owner%3A%40me"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/onlywidd?igsh=MXkyZGQ5NHJtYWgyZw=="><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/6281213582419"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h5><span class="line"></span> Stay Updated</h5>
+                <p>Follow for more updates.</p>
+                <div class="footer-form">
+                    <input type="email" placeholder="Enter your email" />
+                    <button class="btn-amber">Follow</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2026 <a href="#" class="amber">Muhamad Widi Apriansyah</a>. All rights reserved.</span>
+            <span class="footer-dot"></span>
+        </div>
+    </footer>
+
+    <!-- MODAL LIGHTBOX -->
+    <div class="exp-modal" id="expModal" role="dialog" aria-modal="true">
+        <div class="exp-modal-backdrop" id="expModalBackdrop"></div>
+        <div class="exp-modal-box">
+            <button class="exp-modal-close" id="expModalClose" aria-label="Tutup"><i class="fas fa-xmark"></i></button>
+            <div class="exp-modal-img-wrap">
+                <img src="" alt="" id="expModalImg" />
+                <div class="exp-modal-loader"><i class="fas fa-circle-notch fa-spin"></i></div>
+            </div>
+            <div class="exp-modal-caption" id="expModalCaption"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
